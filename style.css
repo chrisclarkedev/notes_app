@@ -5,9 +5,9 @@
 }
 
 body {
+  background-color: rgb(17, 64, 194);
   font-family: "Noto Sans", sans-serif;
   margin: 0;
-  background-color: lightskyblue;
   display: flex;
   flex-wrap: wrap;
 }
@@ -17,4 +17,24 @@ body {
   height: 500px;
   background-color: #fff;
   margin: 20px;
+}
+
+.notes .tools {
+  background-color: rgb(248, 211, 0);
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.notes .tools button {
+  background-color: transparent;
+  border: none;
+  color: rgb(37, 32, 32);
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.notes .main {
+  height: 100%;
+  width: 100%;
 }
