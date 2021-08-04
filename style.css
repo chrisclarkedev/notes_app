@@ -28,7 +28,7 @@ body {
 
 .notes .tools button {
   background-color: transparent;
-  border: none;
+  /* border: none; */
   color: rgb(37, 32, 32);
   font-size: 1rem;
   margin-left: 0.5rem;
