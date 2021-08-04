@@ -13,8 +13,8 @@ body {
 }
 
 .notes {
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   background-color: #fff;
   margin: 20px;
 }
@@ -37,4 +37,17 @@ body {
 .notes .main {
   height: 100%;
   width: 100%;
+  display: none;
+}
+
+.notes textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+.note .hidden {
+  display: none;
 }
