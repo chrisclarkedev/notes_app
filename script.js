@@ -42,5 +42,5 @@ function addNewNote() {
     main.innerHTML = marked(value);
   });
 
-  document.body.appendChild("note");
+  document.body.appendChild(note);
 }

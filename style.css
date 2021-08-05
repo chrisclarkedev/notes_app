@@ -21,12 +21,14 @@ body {
   position: fixed;
   top: 1rem;
   right: 1rem;
+  cursor: pointer;
 }
 
 .note {
+  background-color: #fff;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
   width: 300px;
   height: 300px;
-  background-color: #fff;
   margin: 20px;
 }
 
@@ -43,10 +45,11 @@ body {
   color: rgb(37, 32, 32);
   font-size: 1rem;
   margin-left: 0.5rem;
+  cursor: pointer;
 }
 
 .note .main {
-  background-color: white;
+  background-color: #eee;
   overflow: hidden;
   height: 300px;
   width: 100%;
